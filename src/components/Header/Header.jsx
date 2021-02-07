@@ -10,7 +10,6 @@ import {
 
 const Header = (props) => {
   const [openMenu, setOpenMenu] = useState(false);
-
   const handleClickIcon = () => setOpenMenu(!openMenu);
 
   return (

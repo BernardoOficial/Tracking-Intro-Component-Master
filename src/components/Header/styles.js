@@ -1,7 +1,5 @@
 import styled from "styled-components";
 import { ReactComponent as LogoIcon } from "../../assets/images/logo.svg";
-import { ReactComponent as HamburgerIcon } from "../../assets/images/icon-hamburger.svg";
-import { ReactComponent as CloseIcon } from "../../assets/images/icon-close.svg";
 import Hamburger from "../../assets/images/icon-hamburger.svg";
 import Close from "../../assets/images/icon-close.svg";
 
