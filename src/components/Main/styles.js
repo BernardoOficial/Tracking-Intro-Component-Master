@@ -2,9 +2,27 @@ import styled from "styled-components";
 import { ReactComponent as Illustration } from "../../assets/images/illustration-devices.svg";
 
 const Container = styled.main`
-  margin-top: 40px;
-  padding: 30px;
+  padding: 100px 30px 30px;
   width: 100%;
+
+  position: relative;
+
+  ::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    z-index: 1;
+    width: 50%;
+    height: 400px;
+    background: var(--color-text-white);
+    border-bottom-left-radius: 30px;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 180px 30px 30px;
+  }
 `;
 
 const Wrapper = styled.main`
@@ -22,6 +40,7 @@ const Wrapper = styled.main`
 `;
 
 const ContentIntro = styled.section`
+  z-index: 2;
   width: 100%;
   margin: 40px 0 10px;
 
@@ -144,17 +163,22 @@ const Link = styled.a`
 `;
 
 const Figure = styled.figure`
+  z-index: 2;
   order: -1;
   width: 100%;
 
   @media (min-width: 1200px) {
+    position: absolute;
+    right: 0;
     order: initial;
     width: 700px;
   }
 `;
 
 const IllustrationDevices = styled(Illustration)`
-  width: 100%;
+  display: block;
+  width: 960px;
+  margin: 0 auto;
 
   @media (min-width: 1200px) {
     width: 700px;

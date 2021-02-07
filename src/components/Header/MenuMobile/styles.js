@@ -14,6 +14,7 @@ const Navegation = styled.nav`
   background-color: var(--color-text-white-primary);
   box-shadow: -1px 1px 15px -8px var(--color-text-blue-secondary);
   border-radius: 20px;
+  z-index: 4;
 
   animation: openMenu 300ms ease-out;
   @keyframes openMenu {

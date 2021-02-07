@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Container = styled.footer`
-  margin: 60px 0 20px;
+  margin: 30px 0 20px;
   text-align: center;
   font-size: 14px;
   line-height: 20px;
@@ -9,9 +9,14 @@ const Container = styled.footer`
   font-weight: 700;
   letter-spacing: 2px;
   color: var(--color-text-blue);
+  padding: 0 30px;
 
   > a {
     color: var(--color-text-blue);
+  }
+
+  @media (min-width: 1200px) {
+    margin: 100px 0 20px;
   }
 `;
 

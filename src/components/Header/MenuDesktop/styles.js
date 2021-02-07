@@ -42,6 +42,7 @@ const Item = styled.li`
 `
 
 const Link = styled.a`
+  cursor: pointer;
   font-family: "Barlow Condensed";
   text-transform: uppercase;
   letter-spacing: 1px;

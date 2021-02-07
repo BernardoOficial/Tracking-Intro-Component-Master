@@ -6,8 +6,12 @@ import Hamburger from "../../assets/images/icon-hamburger.svg";
 import Close from "../../assets/images/icon-close.svg";
 
 const Container = styled.header`
+  position: absolute;
+  top: 0;
+  left: 0;
   padding: 30px;
   width: 100%;
+  z-index: 3;
 `;
 const Wrapper = styled.div`
   width: 100%;
@@ -20,6 +24,7 @@ const Wrapper = styled.div`
 `;
 
 const Logo = styled(LogoIcon)`
+  cursor: pointer;
   width: 32px;
   height: 32px;
 `;
