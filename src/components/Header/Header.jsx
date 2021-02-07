@@ -17,9 +17,9 @@ const Header = (props) => {
     <Container>
       <Wrapper>
         <Logo />
-        <IconMenuMobile onClick={handleClickIcon} />
+        <IconMenuMobile onClick={handleClickIcon} openMenu={openMenu} />
         <MenuDesktop />
-        {openMenu && <MenuMobile  />}
+        {openMenu && <MenuMobile />}
       </Wrapper>
     </Container>
   );
