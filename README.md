@@ -4,7 +4,7 @@ Esse projeto teve como objetivo o treinamento com ReactJS em um layout, utilizan
 
 Esse projeto também foi um desafio do site do Frontend Mentor.
 
-![Imagem do projeto](./src/assets/images/image-projeto.JPG).
+![Imagem do projeto](./src/assets/images/image-projeto.JPG)
 
 ## Tecnologia utilizadas
 
@@ -13,4 +13,4 @@ Esse projeto também foi um desafio do site do Frontend Mentor.
 
 ## Apresentação do projeto
 
-![Imagem do projeto](./src/assets/images/apresentacao-project-react.gif).
+![Imagem do projeto](./src/assets/images/apresentacao-project-react.gif)
