@@ -1,4 +1,4 @@
-# Projet Tracking Intro Component Master
+# Project Tracking Intro Component Master
 
 Esse projeto teve como objetivo o treinamento com ReactJS em um layout, utilizando como ferramentas o styled-components, para estilizar os componentes, e o hábito de componentizar os elementos em tela.
 
